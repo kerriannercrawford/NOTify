@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
+
+html {
+  background-image: linear-gradient(rgb(48, 48, 48), #191414);
+  font-family: 'Nunito', sans-serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40%;
+  width: 1100px;
+  height: 1150px;
+  max-height: 1150px;
+}
+
+.loginPage button {
+  background-color: #1db954;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: larger;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-rows: 5% 95%;
+  height: 1150px;
+  max-width: 1100px;
+  max-height: 1150px;
+  overflow: auto;
+}
+
+.header {
+  text-align: right;
+  margin-right: 20px;
+  grid-row: 1 / span 1;
+}
+
+.headerInfo img {
+  width: 50px;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.headerInfo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 12px;
+}
+
+.navBar {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: 1fr 2fr;
+  grid-row: 2;
+}
+.navBar button {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.navBar h1 {
+  font-size: 18px;
+}
+
+.navBar h2 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+}
+
+.navBar h3 {
+  font-size: 16px;
+}
+
+.linkContainer {
+  grid-column: 1 / span 1;
+}
+
+.bodyContainer {
+  grid-column: 2 / span 1;
+  max-height: 1000px;
+  overflow: scroll;
+}
+
+.playlistHeader {
+  display: flex;
+  align-items: center;
+}
+
+.playlistHeader h1 {
+  font-size: 30px;
+}
+
+.playlistHeader img {
+  width: 100px;
+  border-radius: 5px;
+  display: flex;
+  padding-right: 20px;
+}
+
+.trackContainer {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  padding: 10px;
+  align-items: center;
+  justify-content: end;
+  width: 75%;
+}
+
+.trackContainer img {
+  padding: 10px 15px 5px 5px;
+  border-radius: 5px;
+}
+
+.trackContainer button {
+  width: 100px;
+}
+
+#newPlaylist {
+  width: 20%;
+}
+
+input#name {
+  width: 400px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.694);
+}
+
+.addPlaylist textarea {
+  width: 400px;
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.694);
+  font-family: 'Nunito';
+}
+
+input#submit {
+  width: 150px;
+  background-color: #1db954;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: larger;
+  padding: 10px;
+  margin-left: 15%;
+}
+
+.savePlaylist button#newPlaylist {
+  width: 150px;
+  background-color: #1db954;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+input#searchText {
+  width: 400px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.694);
+}
+
+input#searchSubmit {
+  width: 150px;
+  background-color: #1db954;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.trackImg {
+  width: 20%;
+}
+
+.trackInfo {
+  width: 58%;
+}
+
+.trackSubmit {
+  margin-left: 2%;
+  width: 20%;
+}
+
+.homeContainer h1 {
+  font-size: 30px;
+}
+
+.homeContainer h2 {
+  font-size: 25px;
+}
+
+.homePlaylist {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+.homePlaylist h1 {
+  font-size: 18px;
+}
+
+.homePlaylist img {
+  width: 150px;
+}
+
+.album {
+  padding: 15px;
+}
