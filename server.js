@@ -4,8 +4,6 @@ const cookieParser = require('cookie-parser');
 const SpotifyWebApi = require('spotify-web-api-node');
 
 const PORT = 3000;
-const clientId = 'c1531b706046487997b03cb7c288c58e';
-const clientSecret = 'a32c372a4f84441d9391ce60bde7f9a3';
 
 const app = express();
 
